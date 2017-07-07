@@ -1,5 +1,5 @@
 public class HelloWorld{
-    public static String getGreeeting(String name){
+    private static String getGreeeting(String name){
        if (name== null) throw new IllegalArgumentException();
        return "Hello "+ name;
     }
